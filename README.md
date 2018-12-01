@@ -38,3 +38,6 @@ Then select the interpreter where your virtual env exists. Looks something like 
     $ pipenv run django-admin startapp api
     (create database)
     (configure database - see settings.py)
+    $ pipenv run python3 manage.py migrate
+    $ python manage.py createsuperuser --email admin@example.com --username admin
+    $ pipenv run python3 manage.py createsuperuser --email admin@example.com --username admin
