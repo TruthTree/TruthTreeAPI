@@ -1,0 +1,6 @@
+.env
+.env.sample
+Dockerfile
+.dockerignore
+.gitignore
+.git
