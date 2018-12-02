@@ -17,6 +17,11 @@ The TruthTree Python backend
     $ make migrate              # run migrations for existing apps
     $ make start                # start server
 
+## Deployment
+
+    $ docker build -t truthtree .
+    $ docker run -p 8000:8000 truthtree
+
 ## Setting Up VSCode
 
 https://code.visualstudio.com/docs/python/environments
