@@ -12,6 +12,9 @@ django = "*"
 djangorestframework = "*"
 psycopg2 = "*"
 python-dotenv = "*"
+sqlalchemy = "*"
+pandas = "*"
+ctds = "*"
 
 [requires]
 python_version = "3.7"
